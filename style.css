@@ -1,0 +1,46 @@
+/* Add your CSS styles here */
+
+/* Style for the sidebar navigation */
+.sidebar .sidebar-content {
+    background-color: #f1f1f1;
+    border-right: 2px solid #e6e6e6;
+}
+
+/* Style for sidebar title */
+.sidebar .sidebar-title {
+    color: #ff4b4b;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Style for sidebar radio buttons */
+.sidebar .stRadio > label {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* General button styling */
+button {
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979ff;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background: #0353ff;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
